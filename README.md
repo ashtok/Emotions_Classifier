@@ -34,15 +34,18 @@ EmotionClassify_CNN(
 ## Quick Start
 
 ```bash
+# Clone the repository
+git clone https://github.com/yourusername/emotion-recognition.git
+cd emotion-recognition
+
 # Install dependencies
 pip install torch torchvision numpy pandas matplotlib tqdm
 
-# Train model
-python train.py
-
-# Evaluate
-python evaluate.py
+# Run the notebook
+jupyter notebook classify-human-emotions.ipynb
 ```
+
+The trained model weights are saved in `emotion_cnn.pth`.
 
 ## Training Details
 
