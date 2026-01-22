@@ -35,7 +35,7 @@ EmotionClassify_CNN(
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/emotion-recognition.git
+git clone https://github.com/ashtok/Emotions_Classifier.git
 cd emotion-recognition
 
 # Install dependencies
